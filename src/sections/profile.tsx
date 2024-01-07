@@ -1,47 +1,46 @@
-import React from 'react'
 import profileImage from '../utilities/p2.png';
 import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io';
-import {FaMailchimp} from 'react-icons/fa6';
+import { FaMailchimp } from 'react-icons/fa6';
 
 const Profile = () => {
     return (
-        <div className='border-2 rounded-md align-middle text-center'>
+        <div className='border border-t-0 border-b-0 border-gray-400 rounded-xl p-4 pl-5 pr-5flex flex-col items-center min-h-screen max-h-screen top-0 fixed left-0 ml-4'>
             {/* profile heading */}
-            <div className='flex justify-between align-middle'>
-                <h1 className='text-green-500 font-bold text-3xl '>A_Raj</h1>
-                <h3 className='text-white font-bold'>web Programmer</h3>
+            <div className='flex justify-between w-full items-center'>
+                <h1 className='text-[#28e98c] font-bold text-4xl '>A_Raj</h1>
+                <h3 className='text-white font-light align-middle'>Web Programmer</h3>
             </div>
 
-            <div>
-                <img src={profileImage} alt='Profile Image'></img>
+            <div className='w-56 justify-center flex m-7'>
+                <img src={profileImage} alt='Profile Image' className='w-full' />
             </div>
 
-            <div>
-                <h3 className='text-white'>adiabhiraj141@gmail.com</h3>
+            <div className='items-center flex-col flex'>
+                <h3 className='text-white font-normal text-2xl mb-2'>adiabhiraj141@gmail.com</h3>
+                <h3 className='text-white font-normal text-2xl mb-2'>Based in Haryana, <span className='text-[#28e98c]'>INDIA</span></h3>
             </div>
 
-            <div>
-                <h3 className='text-white'>Based in Haryana, <span>INDIA</span></h3>
-            </div>
-
-            <div>
-                <p className='text-white'>© 2021 adii. All Rights Reserved</p>
-            </div>
+            <p className='text-gray-500 text-sm font-extralight m-7 flex justify-center'>© 2021 adii. All Rights Reserved</p>
 
             <div className='flex justify-center'>
-                <a href='https://twitter.com/adiraj195' target='_blank' className='text-white'>
+                <a href='https://twitter.com/adiraj195' target='_blank' className='text-white border-gray-500 border-2 p-2 rounded-full text-xl ml-1 mr-1 hover:border-[#28e98c] transition-colors'>
                     <IoLogoTwitter />
                 </a>
-                <a href='https://www.linkedin.com/in/aditya-raj-127670220/' target='_blank' className='text-white'>
+                <a href='https://www.linkedin.com/in/aditya-raj-127670220/' target='_blank' className='text-white border-gray-500 border-2 p-2 rounded-full text-xl ml-1 mr-1 hover:border-[#28e98c] transition-colors'>
                     <IoLogoLinkedin />
                 </a>
-                <a href='https://github.com/adiabhiraj195' target='_blank' className='text-white'>
+                <a href='https://github.com/adiabhiraj195' target='_blank' className='text-white border-gray-500 border-2 p-2 rounded-full text-xl ml-1 mr-1 hover:border-[#28e98c] transition-colors'>
                     <IoLogoGithub />
                 </a>
             </div>
 
             {/* <div className='text-center align-middle flex'> */}
-                <a href="#contactContainer" ><button className='text-white flex align-middle text-center'><FaMailchimp className='btn-icon' /> HIRE ME!</button></a>
+            <a href="#contactContainer" className='flex items-center justify-center text-black w-full pt-2 pb-2 border-2 border-[#28e98c] rounded-3xl bg-[#28e98c] text-lg font-medium mt-5 hover:text-[#28e98c] hover:bg-black transition-colors'>
+                <FaMailchimp className='' /> HIRE ME!
+            </a>
+            {/* <a href="#contactContainer" className='w-full flex justify-center align-middle items-center p'>
+                <button className='flex items-center text-black w-full pt-3 pb-3 border-2 border-[#28e98c] rounded-3xl bg-[#28e98c] text-lg font-extralight mt-5'><FaMailchimp className='' /> HIRE ME!</button>
+            </a> */}
             {/* </div> */}
         </div>
     )
