@@ -6,36 +6,36 @@ import {BsGear} from 'react-icons/bs';
 
 const Navigation = () => {
     return (
-        <div>
-            <div className='border border-gray-400 rounded-xl text-white flex flex-col'>
+        <div className='min-h-full fixed right-0 top-0 flex items-center mr-7'>
+            <div className='border border-gray-400 rounded-3xl text-white pt-7 pb-7 pr-4 pl-4 text-xl'>
                 <a href='#home' className='navBar-link'>
                     <span className='hidden'>Home</span>
-                    <BiHome className='nav-icon' />
+                    <BiHome className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
                 <a href='#aboutContainer' className='navBar-link'>
                     <span className='nav-span hidden'>About</span>
-                    <VscPerson className='nav-icon' />
+                    <VscPerson className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
                 <a href='#resumeContainer' className='navBar-link'>
                     <span className='nav-span hidden'>Resume</span>
-                    <HiOutlineDocumentText className='nav-icon' />
+                    <HiOutlineDocumentText className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
                 <a href='#skillContainer' className='navBar-link'>
                     <span className='nav-span hidden'>Skills</span>
-                    <BsGear className='nav-icon' />
+                    <BsGear className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
                 <a href='#portfolioContainer' className='navBar-link'>
                     <span className='nav-span hidden'>Portfolio</span>
-                    <TiDocumentText className='nav-icon' />
+                    <TiDocumentText className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
                 <a href='#contactContainer' className='navBar-link'>
                     <span className='nav-span hidden'>Contact</span>
-                    <HiOutlineMailOpen className='nav-icon' />
+                    <HiOutlineMailOpen className='nav-icon hover:text-[#28e98c] transition-colors' />
                 </a>
             </div>
         </div>

@@ -4,7 +4,7 @@ import { FaMailchimp } from 'react-icons/fa6';
 
 const Profile = () => {
     return (
-        <div className='border border-t-0 border-b-0 border-gray-400 rounded-xl p-4 pl-5 pr-5flex flex-col items-center min-h-screen max-h-screen top-0 fixed left-0 ml-4'>
+        <div className='border border-t-0 border-b-0 border-gray-400 rounded-xl p-4 pl-6 pr-6 flex flex-col items-center min-h-screen max-h-screen top-0 fixed left-0 ml-7'>
             {/* profile heading */}
             <div className='flex justify-between w-full items-center'>
                 <h1 className='text-[#28e98c] font-bold text-4xl '>A_Raj</h1>
