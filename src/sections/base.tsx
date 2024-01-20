@@ -1,16 +1,20 @@
 import React from 'react'
+import SectionHeading from '../components/section-heading';
 
 const Base = () => {
   return (
-    <div className='bg-blue-500 min-w-full'>
-      <h1 className='text-white font-bold text-4xl'>
-        Say Hi from
-        <br />
-        <span>Aditya Raj</span>,
-        <br />
-        Webflow Developer
-      </h1>
+    <div className='w-full'>
+      <div>
+        <SectionHeading heading='Introduction'/>
+        <h1 className='text-white text-7xl font-normal'>
+          Say Hi from
+          <br />
+          <span className='text-[#28e98c]'>Aditya Raj</span>,
+          <br />
+          Webflow Developer
+        </h1>
 
+      </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import {BsGear} from 'react-icons/bs';
 
 const Navigation = () => {
     return (
-        <div className='min-h-full fixed right-0 top-0 flex items-center mr-7'>
+        <div className=' mr-7'>
             <div className='border border-gray-400 rounded-3xl text-white pt-7 pb-7 pr-4 pl-4 text-xl'>
                 <a href='#home' className='navBar-link'>
                     <span className='hidden'>Home</span>
