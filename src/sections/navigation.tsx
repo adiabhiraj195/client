@@ -38,6 +38,9 @@ const Navigation = () => {
                     <HiOutlineMailOpen className='nav-icon hover:text-[#28e98c] transition-colors' />
                 </a>
             </div>
+            {/* <div>
+                Resume direct download link
+            </div> */}
         </div>
     )
 }
