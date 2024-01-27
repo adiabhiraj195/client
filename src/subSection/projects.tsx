@@ -23,7 +23,7 @@ const Projects = () => {
     }
 
     return (
-        <div>
+        <div className="projects">
             <SectionHeading heading='PROJECTS' Icon={TiDocumentText} />
 
             <div className='mb-20'>

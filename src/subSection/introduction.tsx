@@ -17,10 +17,12 @@ const Introduction = () => {
 
             <p className='text-gray-400 font-light text-xl ml-2 mb-12'>I code beautifully simple things and i love what i do. Just simple like that!</p>
 
-            <div className='flex justify-center items-center max-w-fit border rounded-full p-2 border-gray-500 cursor-pointer realative right-1/4'>
-                <BiDownArrowAlt className='absolute text-white font-bold text-2xl' />
-                <img src={roundText}></img>
-            </div>
+            <a href='#projects'>
+                <div className='flex justify-center items-center max-w-fit border rounded-full p-2 border-gray-500 cursor-pointer realative right-1/4'>
+                    <BiDownArrowAlt className='absolute text-white font-bold text-2xl' />
+                    <img src={roundText}></img>
+                </div>
+            </a>
         </div>
     )
 }

@@ -1,12 +1,13 @@
-import {BiHome} from 'react-icons/bi';
-import {VscPerson} from 'react-icons/vsc';
-import {HiOutlineDocumentText, HiOutlineMailOpen} from 'react-icons/hi';
-import {TiDocumentText} from 'react-icons/ti';
-import {BsGear} from 'react-icons/bs';
+import { BiHome } from 'react-icons/bi';
+import { VscPerson } from 'react-icons/vsc';
+import { HiOutlineDocumentText, HiOutlineMailOpen } from 'react-icons/hi';
+import { TiDocumentText } from 'react-icons/ti';
+import { BsGear } from 'react-icons/bs';
 
 const Navigation = () => {
     return (
         <div className=' mr-7'>
+            
             <div className='border border-gray-400 rounded-3xl text-white pt-7 pb-7 pr-4 pl-4 text-xl'>
                 <a href='#home' className='navBar-link'>
                     <span className='hidden'>Home</span>
@@ -38,9 +39,7 @@ const Navigation = () => {
                     <HiOutlineMailOpen className='nav-icon hover:text-[#28e98c] transition-colors' />
                 </a>
             </div>
-            {/* <div>
-                Resume direct download link
-            </div> */}
+
         </div>
     )
 }
