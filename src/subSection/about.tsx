@@ -3,7 +3,7 @@ import { VscPerson } from 'react-icons/vsc';
 
 const About = () => {
     return (
-        <div className='mb-10 aboutContainer'>
+        <div className='mb-10 aboutContainer' id="about">
             <SectionHeading heading='ABOUT' Icon={VscPerson} />
 
             <div className='pl-2'>

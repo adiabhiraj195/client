@@ -8,7 +8,7 @@ import { SiMongodb, SiExpress } from 'react-icons/si';
 
 const Skills = () => {
     return (
-        <div className='mb-10'>
+        <div className='mb-10' id="skill">
             <SectionHeading heading='SKILLS' Icon={BsGear} />
 
             <div className='p-2'>

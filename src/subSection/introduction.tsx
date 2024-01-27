@@ -4,7 +4,7 @@ import { BiHome, BiDownArrowAlt } from 'react-icons/bi';
 
 const Introduction = () => {
     return (
-        <div className='relative mb-10'>
+        <div className='relative mb-10' id='home'>
             <SectionHeading heading='INTRODUCTION' Icon={BiHome} />
 
             <h1 className='text-white text-8xl font-normal mb-10'>

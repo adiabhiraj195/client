@@ -23,7 +23,7 @@ const Contact = () => {
             });
     }
     return (
-        <div className='mb-10'>
+        <div className='mb-10 ' id="contact">
             <SectionHeading heading='CONTACT' Icon={HiOutlineMailOpen} />
 
             <div className='pl-2'>

@@ -36,7 +36,7 @@ const Profile = () => {
             </div>
 
             {/* <div className='text-center align-middle flex'> */}
-            <a href="#contactContainer" className='flex items-center justify-center text-black w-full pt-2 pb-2 border-2 border-[#28e98c] rounded-3xl bg-[#28e98c] text-lg font-medium mt-5 hover:text-[#28e98c] hover:bg-black transition-colors'>
+            <a href="#contact" className='flex items-center justify-center text-black w-full pt-2 pb-2 border-2 border-[#28e98c] rounded-3xl bg-[#28e98c] text-lg font-medium mt-5 hover:text-[#28e98c] hover:bg-black transition-colors'>
                 <FaMailchimp className='' /> HIRE ME!
             </a>
             {/* <a href="#contactContainer" className='w-full flex justify-center align-middle items-center p'>

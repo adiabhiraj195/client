@@ -14,27 +14,27 @@ const Navigation = () => {
                     <BiHome className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
-                <a href='#aboutContainer' className='navBar-link'>
+                <a href='#about' className='navBar-link'>
                     <span className='nav-span hidden'>About</span>
                     <VscPerson className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
-                <a href='#resumeContainer' className='navBar-link'>
+                <a href="https://drive.google.com/file/d/17UtCUA4sarevmJuezY2DdINs8ZqVgr9N/view?usp=drive_link" download target='_blank' className='navBar-link'>
                     <span className='nav-span hidden'>Resume</span>
                     <HiOutlineDocumentText className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
-                <a href='#skillContainer' className='navBar-link'>
+                <a href='#projects' className='navBar-link'>
+                    <span className='nav-span hidden'>Portfolio</span>
+                    <TiDocumentText className='mb-6 hover:text-[#28e98c] transition-colors' />
+                </a>
+                
+                <a href='#skill' className='navBar-link'>
                     <span className='nav-span hidden'>Skills</span>
                     <BsGear className='mb-6 hover:text-[#28e98c] transition-colors' />
                 </a>
 
-                <a href='#portfolioContainer' className='navBar-link'>
-                    <span className='nav-span hidden'>Portfolio</span>
-                    <TiDocumentText className='mb-6 hover:text-[#28e98c] transition-colors' />
-                </a>
-
-                <a href='#contactContainer' className='navBar-link'>
+                <a href='#contact' className='navBar-link'>
                     <span className='nav-span hidden'>Contact</span>
                     <HiOutlineMailOpen className='nav-icon hover:text-[#28e98c] transition-colors' />
                 </a>
